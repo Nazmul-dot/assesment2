@@ -1,0 +1,36 @@
+.partition {
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .partition-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .vertical .partition {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .horizontal .partition {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .controls button {
+    margin: 5px 0;
+  }
+  

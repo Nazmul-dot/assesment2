@@ -1,0 +1,43 @@
+.partition {
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vh;
+  }
+  .controls {
+    /* position: absolute;
+    top: 50%;
+    left: 10%; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    /* flex-direction: row; */
+    border: 2px solid black;
+  }
+  .partition-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: ${({ isVertical }) => isVertical ? 'column' : 'row'}; */
+  }
+  
+  .vertical .partition {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .horizontal .partition {
+    width: 100%;
+    height: 50%;
+    /* display: block; */
+  }
+  
+  
+  
+  .controls button {
+    margin: 5px 0;
+  }
+  
